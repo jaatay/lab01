@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest --coverage"
+    "test": "jest --coverage",
+    "start": "node index.js",
+    "lint": "eslint **/*.js"
   },
   "repository": {
     "type": "git",
@@ -21,6 +23,7 @@
     "jest": "^24.1.0"
   },
   "dependencies": {
+    "eslint": "^5.13.0",
     "http-server": "^0.11.1",
     "lint": "^1.1.2"
   }
