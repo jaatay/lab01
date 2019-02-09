@@ -78,3 +78,6 @@ describe('#arithmetic.js', () => {
         expect(mathModule.testDivide(8, 2)).toBe(4);
     });
 })
+
+####Attributions
+vladimirsan - lab instructions and demo code
