@@ -19,5 +19,8 @@
   "devDependencies": {
     "faker": "^4.1.0",
     "jest": "^24.1.0"
+  },
+  "dependencies": {
+    "lint": "^1.1.2"
   }
 }
