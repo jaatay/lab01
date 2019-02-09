@@ -10,33 +10,26 @@
 
 ### Links and Resources
 * [repo](https://github.com/jaatay/lab01)
-* [front-end](http://xyz.com) (when applicable)
+* [Heroku](https://dashboard.heroku.com/apps/mighty-stream-92225)
 
 ### Modules
 #### `greet.js`
 ##### testGreeting() -> true
-##### testGreeting() -> true
+##### requiredGreeting(string) -> string
 
 #### `arithmetic.js`
-
-###### `foo(thing) -> string`
-Usage Notes or examples
-
-###### `bar(array) -> array`
-Usage Notes or examples
+##### testMath() -> integer
+##### testAdd(integer, integer) -> integer
+##### testMultiply(integer, integer) -> true
+##### testDivide(integer, integer) -> null || true
 
 ### Setup
 #### `.env` requirements
-* `PORT` - Port Number
-* `MONGODB_URI` - URL to the running mongo instance/db
+* `PORT` - Local default port
 
 #### Running the app
 * `npm start`
-* Endpoint: `/foo/bar/`
-  * Returns a JSON object with abc in it.
-* Endpoint: `/bing/zing/`
-  * Returns a JSON object with xyz in it.
-  
+
 #### Tests
 * Tests conducted via node using Jest test package. Branch rule testing build via Travis, linked to repo. All branches required passing build prior to merge into Master branch.
 
